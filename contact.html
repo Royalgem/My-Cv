@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-me</title>
+</head>
+<body>
+    <h3>My Contact details</h3>
+    <p>I presently live in Asaba, Delta state because i got married to the love of my life who happens to stay there</p>
+    <p>You can reach me via my email <a>isahahuoyiza@gmail.com</a></p>
+    <p>You can also give me a call on 08163358003 as i could be slow to respond to emails sometimes</p>
+    <p>Fill the form below to get to book an appointment;</p>
+    <h4>Contact form</h4>
+    <form action="/index.html" autocomplete="on">
+         <label for="fname" autofocus>First name</label>
+         <input type="text" id="fname" name="fname" value="Your name">
+         <label for="lname">Last name</label>
+         <input type="text" id="lname" name="lname" value="Your surname"><br><br>
+         <label for="email">Your Email</label>
+         <input type="email" id="email" name="email" required>
+         <label for="tel">Telephone</label>
+         <input type="tel" id="tel" name="tel" value="+234" required><br><br>
+         <label for="Address">Input your primary address</label>
+         <input type="text" name="Address" value="home address"><br><br>
+         <label for="religion">Religion</label>
+         <select name="religion" id="religion">
+            <option value="christian">christian</option>
+            <option value="muslim">muslim</option>
+            <option value="not say">Prefer not to say</option>
+         </select>
+         <label for="gender">Gender</label>
+         <select name="gender" id="" size="1">
+            <option value="non">choose your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="prefer not to say">Prefer not to say</option>
+         </select><br><br>
+         <textarea name="message" id="message" cols="65" rows="4">Your Request</textarea><br>
+         <input type="checkbox" name="terms" required>
+         <label for="terms">I have read and understood all the terms and conditions</label><br>
+         <input type="reset" name="reset" value="RESET">
+         <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
